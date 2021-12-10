@@ -1,0 +1,149 @@
+
+body{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: black;
+}
+
+
+header{
+    margin-top: 10px;
+    padding: 10px;
+    height: 200px;
+    background-color: yellow;
+    border-radius: 0.25em;
+    text-align: Justify;
+    font-size: x-large;
+    background-image: linear-gradient(to right, rgb(87, 100, 216) , rgb(206, 62, 163));
+}
+header img{
+    border-radius: 50%;
+    margin: 20px;
+    border-width: 5px;
+    border-style:double;
+    border-color: rgb(87, 100, 216);
+}
+
+ 
+
+
+nav{
+    border-top: 1px;
+    border-bottom: 1px;
+    border-color: black;
+    border-width: 3px;
+    
+    padding: 10px;
+    border-style: solid;
+    background-color: whitesmoke;
+    text-align: center;
+    font-size: x-large;
+    border-radius: 0.25em;
+    font-size: xx-large;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+}
+
+table{width:100%;border:none; border-spacing: 20px;}
+table td{padding:5px 10px;border:none;}
+table th{padding:5px 10px;border:none;}
+table th b {font-size: 30px; border: none}
+table td b { font-size: 28px; }
+table td { text-align: center; }
+
+nav a{
+    background-color:   rgb(44, 44, 116);
+    padding: 5px 15px;
+
+    border-radius: 00.25em;
+    color: white;
+    text-decoration: none;
+}
+
+.left{
+
+    border-radius: 0.25em;
+    height: 450px;
+    float: left;
+    background-color: yellow;
+    width: 69%;
+    border: transparent;
+}
+.left p {
+    text-align: justify;
+   padding: 1em;
+    font-size: 1.25em;
+}
+
+aside{
+    text-align:center;
+    border-radius: 0.25em;
+    float: right;
+    height: 450px;
+    width: 27%;
+    background-color: grey;
+    border: transparent;
+}
+aside li{
+    list-style-type: none;
+    text-align:  justify;
+    font-weight: 300 ;
+    padding: 25px 55px;
+    
+    font-size: x-large;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+aside a{
+  
+    border-radius: 00.25em;
+    color: white;
+    text-decoration: none;
+}
+aside h3{
+    text-align: center;
+    font-size: x-large;
+    
+}
+
+aside img{
+    margin-top: 10px;
+    margin-right: 25px;
+}
+
+
+.left li{
+  
+    color: black;
+}
+
+
+nav, section,aside, footer {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+footer
+{
+    text-align: center;
+    clear: left;
+    font-style: italic;
+    background-color: whitesmoke;
+    margin-top: 10px;
+    border-radius: 0.25em;
+    padding: 20px;
+    background-image: linear-gradient(to bottom right, rgb(133, 20, 20) , rgb(27, 4, 88));
+}
+
+footer p{
+    color: white;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+} 

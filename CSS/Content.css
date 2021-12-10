@@ -1,0 +1,157 @@
+
+body{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgb(65, 59, 59);
+}
+
+
+header{
+    margin-top: 10px;
+    padding: 10px;
+    height: 200px;
+    background-color: yellow;
+    border-radius: 0.25em;
+    text-align: center;
+    font-size: xx-large;
+    background-image: linear-gradient(to right, rgb(79, 201, 231) , rgb(235, 185, 78));
+}
+header img{
+    margin: 20px;
+    border-width: 5px;
+    
+}
+
+ 
+
+
+nav{
+    border-top: 1px;
+    border-bottom: 1px;
+    border-color: black;
+    border-width: 3px;
+    
+    padding: 10px;
+    border-style: solid;
+    background-color: whitesmoke;
+    text-align: center;
+    font-size: x-large;
+    border-radius: 0.25em;
+    font-size: xx-large;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+
+nav a{
+    background-color:   rgb(44, 44, 116);
+    padding: 5px 15px;
+
+    border-radius: 00.25em;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.left{
+text-align: center;
+    border-radius: 0.25em;
+    height: 450px;
+    float: left;
+    background-color: grey;
+    width: 27%;
+    border: solid;
+}
+
+
+aside{
+    text-align:center;
+    border-radius: 0.25em;
+    float: right;
+    height: 450px;
+    width: 69%;
+    background-color: yellow;
+    border: solid;
+}
+aside li{
+    list-style-type: none;
+    text-align:  left;
+    font-weight: 600 ;
+    padding: 25px 55px;
+    
+    font-size: large;
+
+}
+
+aside a{
+  
+    border-radius: 00.25em;
+    color: rgb(22, 36, 116);
+    text-decoration: none;
+}
+
+aside img{
+    margin-top: 10px;
+    margin-right: 25px;
+}
+.left h3{
+    text-align: center;
+    font-size: x-large;
+    
+}
+.left a{
+  
+    border-radius: 00.25em;
+    color: white;
+    text-decoration: none;
+}
+
+
+.left img{
+    margin-top: 10px;
+    margin-right: 25px;
+}
+
+
+.left li{
+    list-style-type: none;
+    text-align:  left;
+    font-weight: 300 ;
+    padding: 25px 55px;
+    
+    font-size: x-large;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+    
+    
+    nav, section,aside, footer {
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+footer
+{
+    text-align: center;
+    clear: left;
+    font-style: italic;
+    background-color: whitesmoke;
+    margin-top: 10px;
+    border: solid;
+    border-radius: 0.25em;
+    padding: 20px;
+    background-image: linear-gradient(to bottom right, rgb(88, 179, 79) , rgb(177, 66, 158));
+}
+footer p{
+    color: white;
+}
+
+
+footer a{
+    color: white;
+    text-decoration: none;
+} 
