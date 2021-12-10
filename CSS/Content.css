@@ -30,12 +30,12 @@ header img{
 nav{
     border-top: 1px;
     border-bottom: 1px;
-    border-color: black;
+
     border-width: 3px;
     
     padding: 10px;
-    border-style: solid;
-    background-color: whitesmoke;
+    border-style: none;
+    background-color: rgb(65, 59, 59);
     text-align: center;
     font-size: x-large;
     border-radius: 0.25em;
@@ -64,7 +64,7 @@ text-align: center;
     float: left;
     background-color: grey;
     width: 27%;
-    border: solid;
+    border: none;
 }
 
 
@@ -75,9 +75,10 @@ aside{
     height: 450px;
     width: 69%;
     background-color: yellow;
-    border: solid;
+    border: none;
 }
 aside li{
+    
     list-style-type: none;
     text-align:  left;
     font-weight: 600 ;
@@ -141,7 +142,7 @@ footer
     font-style: italic;
     background-color: whitesmoke;
     margin-top: 10px;
-    border: solid;
+    border: none;
     border-radius: 0.25em;
     padding: 20px;
     background-image: linear-gradient(to bottom right, rgb(88, 179, 79) , rgb(177, 66, 158));
@@ -155,3 +156,79 @@ footer a{
     color: white;
     text-decoration: none;
 } 
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    header{
+        font-size: .68em;
+        height: 100%;
+        
+    }
+    header img{
+        
+        width: 10%;
+        height: 10%;
+    }
+    header h1 {
+        font-size: 20px;
+    }
+
+   body{
+       width: 100%;
+   }
+
+
+    nav
+    {
+        
+      width: 100%;
+        font-size: .70em;
+    
+        text-align: center;
+    }
+
+  .left{
+      width: 100%;
+      height: 100%;
+  }
+
+  .left h3{
+    font-size: 20px;
+  }
+  .left li{
+      font-size: 15px;
+  }
+
+  aside{
+      width: 100%;
+      height: 100%;
+  }
+
+  aside li {
+      font-size: 15px;
+  }
+  
+  aside img{
+    width: 15%;
+    height: 15%;
+  }
+
+  aside h1{
+      font-size: 15px;
+  }
+
+  aside p {
+      font-size: 10px;
+  }
+
+    footer{
+        
+        font-size: 13px;
+    
+    }
+
+  }
